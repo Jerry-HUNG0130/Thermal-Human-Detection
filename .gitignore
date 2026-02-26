@@ -11,3 +11,13 @@
 # 注意：必須先「不忽略」資料夾本身，才能「不忽略」裡面的檔案
 !Pose/
 !train_pose.py
+!processed/
+!processed.py
+!labels_reset.py
+!labels_clear.py
+!YOLO/
+!auto_sort_dataset.py
+!Inference/
+!Inference.py
+!EfficientNet/
+!train_EfficientNet.py
