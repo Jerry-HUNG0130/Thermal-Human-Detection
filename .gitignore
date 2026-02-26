@@ -1,0 +1,13 @@
+# Step 1: 忽略專案路徑下的所有檔案與資料夾
+*
+
+# Step 2: 排除特定的檔案（不要忽略它們）
+!main.py
+!requirements.txt
+!.gitignore
+!README.md
+
+# Step 3: 如果要保留特定資料夾及其內容
+# 注意：必須先「不忽略」資料夾本身，才能「不忽略」裡面的檔案
+!Pose/
+!train_pose.py
