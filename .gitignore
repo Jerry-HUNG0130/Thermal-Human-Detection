@@ -16,6 +16,7 @@
 !labels_reset.py
 !labels_clear.py
 !YOLO/
+!train.py
 !auto_sort_dataset.py
 !Inference/
 !Inference.py
