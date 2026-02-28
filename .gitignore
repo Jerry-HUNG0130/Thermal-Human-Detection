@@ -22,3 +22,7 @@
 !Inference.py
 !EfficientNet/
 !train_EfficientNet.py
+!templates/
+!index.html
+!app.py
+!live_demo.py
