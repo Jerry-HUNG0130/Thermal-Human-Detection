@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
 # 載入預訓練模型
-model = YOLO('yolo11l.pt') 
+model = YOLO('yolov11l.pt') 
 
 results = model.train(
     data='thermal_data.yaml',
