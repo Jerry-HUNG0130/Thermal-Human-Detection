@@ -29,4 +29,5 @@
 !resume_train.py
 !train_EfficientNet.py
 !yolo_comparison.py
-!yolo_efficientnet_pipeline.py
+!demo_max.py
+!picture_comparison.py
