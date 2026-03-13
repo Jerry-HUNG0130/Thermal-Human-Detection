@@ -30,4 +30,5 @@
 !train_EfficientNet.py
 !yolo_comparison.py
 !demo_max.py
-!picture_comparison.py
+!generate_triple_comparison.py
+!evaluate_models.py
