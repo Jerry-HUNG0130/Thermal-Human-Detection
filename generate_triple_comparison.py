@@ -16,8 +16,8 @@ YOLO_CUSTOM_WEIGHTS = 'best.pt'                          # 狀況二：自訓 YO
 EFFNET_WEIGHTS = 'best_efficientnet_b2_thermal.pth'      # 狀況三：自訓 EfficientNet
 
 # 2. 資料夾路徑設定
-INPUT_DIR = 'test_images'          # 準備用來測試的原始照片 (請挑選幾張容易誤判的石頭/反光圖)
-OUTPUT_DIR = 'triple_comparison'   # 程式自動產出的三併圖存放區
+INPUT_DIR = r'C:\Users\Shawn\Desktop\side_project\test_data\images'          # 準備用來測試的原始照片 (請挑選幾張容易誤判的石頭/反光圖)
+OUTPUT_DIR = r'C:\Users\Shawn\Desktop\side_project\comarison\comarison_img'   # 程式自動產出的三併圖存放區
 
 # 3. 顯示文字與標題設定
 TITLE_1 = "1. Native YOLO (Baseline)"
@@ -25,7 +25,7 @@ TITLE_2 = "2. Custom YOLO (High Recall)"
 TITLE_3 = "3. YOLO + EfficientNet (High Precision)"
 
 # 4. 推論超參數
-CONF_THRESHOLD = 0.5  # 信心度大於 50% 才顯示
+CONF_THRESHOLD = 0.2  # 信心度大於 50% 才顯示
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 

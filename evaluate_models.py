@@ -19,11 +19,11 @@ EFFNET_WEIGHTS = 'best_efficientnet_b2_thermal.pth'      # 狀況三：自訓 Ef
 
 # 2. 測試資料集路徑 (請替換為你實際的 test 資料夾)
 # 確保 labels 資料夾裡面有與 images 對應的 .txt 標註檔
-TEST_IMAGES_DIR = '/home/student/side_project/YOLO/dataset/images/test'
-TEST_LABELS_DIR = '/home/student/side_project/YOLO/dataset/labels/test'
+TEST_IMAGES_DIR = r'C:\Users\Shawn\Desktop\side_project\test_data\images'
+TEST_LABELS_DIR = r'C:\Users\Shawn\Desktop\side_project\test_data\labels'
 
 # 3. 輸出報表與圖表存放區
-OUTPUT_DIR = 'evaluation_reports'
+OUTPUT_DIR = r'C:\Users\Shawn\Desktop\side_project\comarison'
 
 # 4. 評估超參數
 CONF_THRESHOLD = 0.5   # 信心度大於 50% 才算抓到

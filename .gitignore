@@ -1,34 +1,9 @@
-# Step 1: 忽略專案路徑下的所有檔案與資料夾
+# Ignore everything
 *
 
-# Step 2: 排除特定的檔案（不要忽略它們）
-!main.py
-!requirements.txt
+# Allow .gitignore and .py files
 !.gitignore
-!README.md
+!*.py
 
-# Step 3: 如果要保留特定資料夾及其內容
-# 注意：必須先「不忽略」資料夾本身，才能「不忽略」裡面的檔案
-!Pose/
-!train_pose.py
-!processed/
-!processed.py
-!labels_reset.py
-!labels_clear.py
-!YOLO/
-!train.py
-!auto_sort_dataset.py
-!Inference/
-!Inference.py
-!EfficientNet/
-!train_EfficientNet.py
-!templates/
-!index.html
-!live_demo.py
-!app_video.py
-!resume_train.py
-!train_EfficientNet.py
-!yolo_comparison.py
-!demo_max.py
-!generate_triple_comparison.py
-!evaluate_models.py
+# Allow subdirectories to be traversed (so nested .py files are found)
+!*/
