@@ -4,6 +4,15 @@
 # Allow .gitignore and .py files
 !.gitignore
 !*.py
+!requirements.txt
 
-# Allow subdirectories to be traversed (so nested .py files are found)
+# Allow subdirectories to be traversed
 !*/
+
+# Ignore these directories entirely
+.venv/
+__pycache__/
+weights/
+output/
+uploads/
+.vscode/
